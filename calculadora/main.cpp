@@ -8,12 +8,11 @@ int main ()
 
     int n1 = 0;
     int n2 = 0;
-    int n3 = 0;
     int resultado = 0;
     char escolha = 'a';
 
     cout << "Que tipo de operacao quer fazer?" << endl;
-    cout << "(Adicao, Subtracao, Dividir, Multiplicar?" << endl;
+    cout << "(A-Adicao, S-Subtracao, D-Dividir, M-Multiplicar?" << endl;
     cin >> escolha;
 
     // Ich addiere
@@ -68,9 +67,10 @@ int main ()
 
     }
 
-    else {
-        cout << "Obrigado por usar a calculadora!" << endl;
-    }
+    else 
+    {
+        cout << "Valor incorreto" << endl;
+    };
 
     // und wenn ich diese Taste drück', spielt er ein kleines Musikstück
     
