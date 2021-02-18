@@ -17,7 +17,7 @@ int main ()
 
     // Ich addiere
 
-    if (escolha == 'A' | 'a') {
+    if (escolha == 'A' || 'a') {
 
         cout << "insira o primeiro valor: " << endl;
         cin >> n1;
@@ -31,7 +31,7 @@ int main ()
 
     // und subtrachiere
 
-    else if (escolha == 'S' | 's') {
+    else if (escolha == 'S' || 's') {
 
         cout << "insira o primeiro valor: " << endl;
         cin >> n1;
@@ -43,7 +43,7 @@ int main ()
 
     }
     
-    else if(escolha == 'D' | 'd') {
+    else if(escolha == 'D' || 'd') {
 
         cout << "insira o primeiro valor: " << endl;
         cin >> n1;
@@ -55,7 +55,7 @@ int main ()
 
     }
 
-    else if (escolha == 'M' | 'm') {
+    else if (escolha == 'M' || 'm') {
 
         cout << "insira o primeiro valor: " << endl;
         cin >> n1;
